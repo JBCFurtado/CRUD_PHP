@@ -120,7 +120,7 @@ body {
               </div>
         </div>
         <div class="container mt-2 mb-4 p-2 shadow bg-black">
-          <form action="CRUDqueryLivro.php" method="POST">
+          <form action="CRUDquery.php" method="POST"> para <form action="CRUDquery.php" method="POST">
             <div class="form-row justify-content-center">
               <div class="col-auto">
                 <input type="text" name="nome" class="form-control" id="nome" placeholder="Nome do livro">
@@ -190,13 +190,17 @@ body {
           </div>
             <div class="container mt-2 mb-4 p-2 shadow bg-black">
               <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  A livraria mais antiga do mundo em atividade contínua no local atual: a Livraria Bertrand, situada desde 1773 na rua Garret 73/75 em Lisboa, Portugal.
+
+                  A Livraria Bertrand foi fundada em 1732, na rua Direita do Loreto, por Pedro Faure. Em 1755 veio a ser destruída por um enorme terremoto e maremoto seguidos de um incêndio que assolaram Lisboa, tendo sido instalada em outro local. Dezoito anos depois, após a reconstrução da cidade, a Livraria Bertrand foi instalada no local onde ainda hoje existe, completando assim 238 anos de funcionamento continuado.
               </p>
               <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  Desde então a Livraria Bertrand faz parte do património cultural da cidade. Por lá passaram gerações de escritores portugueses, como Alexandre Herculano, Oliveira Martins, Eça de Queirós, Antero de Quental e Ramalho Ortigão ou, mais recentemente, Fernando Namora e José Cardoso Pires.
               </p>
               <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  A Livraria Bertrand não só comercializa livros e artigos relacionados, mas é também uma editora prestigiada. Apesar da livraria original se encontrar no Chiado, perto do local onde Fernando Pessoa nasceu e do café A Brasileira que Pessoa frequentou, a Bertrand expandiu-se tornando-se uma cadeia de atualmente com 53 lojas em Portugal.
+
+                  A célebre livraria Galignani de Paris reivindica ser a mais antiga do mundo, por ter sido fundada em 1520, na cidade italiana de Veneza. Contudo, apenas foi instalada em 1856 na sua atual localização, rue de Rivoli 224, pelo que a sua congênere lisboeta possui uma história de laboração contínua no mesmo local de mais 83 anos.
               </p>
                 <h6>DESENVOLVEDORES - JARDEL CASTRO | JOBS TI</h6>
             </span>
