@@ -1,0 +1,24 @@
+CREATE DATABASE  bd_jobs 
+DEFAULT CHARACTER SET utf8 
+DEFAULT COLLATE utf8_general_ci;
+
+USE bd_jobs;
+
+CREATE TABLE cad_livraria (
+    cnpj BIGINT NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    endereco VARCHAR(255) NOT NULL,
+    telefone VARCHAR(255) NOT NULL,
+    created datetime,
+    modified datetime,
+    PRIMARY KEY(cnpj)
+);
+CREATE TABLE cad_livros (
+    isbn BIGINT NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL,
+    editora VARCHAR(255) NOT NULL,
+    created datetime,
+    modified datetime,
+    PRIMARY KEY(isbn)
+);
